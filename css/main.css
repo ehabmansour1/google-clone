@@ -1,0 +1,168 @@
+/* start variables */
+
+/* end variables */
+
+/* start global rules */
+* {
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+}
+/* End Global Rules */
+/* start header  */
+.header {
+  padding: 10px 0;
+}
+.header .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.header .container a {
+  color: rgba(0, 0, 0, 0.87);
+}
+.header .container a:hover {
+  text-decoration: underline;
+}
+.header .container svg {
+  width: 25px;
+  margin: 0 15px;
+}
+.header .container button {
+  padding: 8px 30px;
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  cursor: pointer;
+  background-color: #1a73e9;
+  color: white;
+  font-size: 15px;
+}
+/* end header  */
+/* start main  */
+main {
+  padding: 30px 0;
+}
+main .container {
+  text-align: center;
+}
+main .container .search-input {
+  position: relative;
+  width: 488px;
+  max-width: 100%;
+  margin: 20px auto;
+}
+main .container .search-input input {
+  width: 100%;
+  padding: 10px 35px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border: 1px solid #e0e1e2;
+}
+main .container .search-input input:focus {
+  outline: none;
+}
+main .container .search-input i {
+  cursor: pointer;
+  color: #c0c0c0;
+}
+main .container .search-input .fa-magnifying-glass {
+  position: absolute;
+  left: 13px;
+  top: 12px;
+}
+main .container .search-input .fa-microphone {
+  position: absolute;
+  right: 13px;
+  top: 12px;
+}
+main .container .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+main .container .buttons button {
+  padding: 7px 10px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+/* end main  */
+/* start footer  */
+body {
+  height: 100vh;
+  max-height: 100vh;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.footer .country {
+  font-size: 16px;
+  width: 100%;
+  color: #888689;
+  padding: 10px 20px;
+  border-bottom: 1px solid #88868934;
+}
+.footer .links {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.footer .links a {
+  color: #888689;
+  margin-right: 10px;
+}
+/* end footer  */
